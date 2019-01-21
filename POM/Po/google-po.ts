@@ -11,5 +11,6 @@ export class GooglePage{
         browser.manage().window().maximize();
         browser.manage().timeouts().implicitlyWait(30000);
         browser.get('https://www.google.com/');
+        //for  browser actions
     }
 }
