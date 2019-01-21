@@ -6,7 +6,7 @@ describe("Google functionlity", function(){
     browser.ignoreSynchronization=true
 
     it("Enter text in search bar", function(){
-        page.launchApp();
+        page.launchApplication();
         page.enterTextToSearch('Angular');
         browser.sleep(100000);
     })
